@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-lg: 1200px;
+  --breakpoint-md: 909px;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+  font-family: var(--font-plus-jakarta-sans);
+}
+
+
+.topRightCorn{
+    mask: radial-gradient(180px at 100% 0,#0000 98%,#000);
+}
+
+.topLeftCorn{
+   mask: radial-gradient(180px at 0 0,#0000 98%,#000);
+}
+
+.bottomCenterCorn{}
+
+.container{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
