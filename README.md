@@ -1,5 +1,3 @@
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -27,15 +25,12 @@
    ```
 5. Open your browser and go to `http://localhost:3000`
 
----
-
 ## 🛠️ Tech Stack
 
 - **Next.js**  
 - **Tailwind CSS**  
 - **Swiper** (for sliders and carousels)
 
----
 
 ## ✨ Features & Architecture
 
@@ -60,7 +55,7 @@
    - Manual navigation (next/previous)  
    - Blurred background effect on inactive cards
 
----
+
 
 ## 📂 Project Structure
 
